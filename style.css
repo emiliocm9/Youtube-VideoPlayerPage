@@ -61,11 +61,20 @@ body {
      display: flex;
      align-self: flex-end;
      margin-right: 40px;
-     justify-content: space-between;
+     justify-content: space-around;
+     flex: 0.3;
  }
 
 #upload {
     align-self: flex-start;
+    height: 35px;
+}
+
+#menuHeader{
+    height: 35px;
+}
+
+#notifications{
     height: 35px;
 }
 
@@ -155,6 +164,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
+    min-width: 590px;
+    max-width: 1080px;
 }
 
 #recommendedVideos{
@@ -277,6 +288,10 @@ body {
     align-items: center;
     border: none;
     background-color: white;
+}
+
+#lasttwo button:hover {
+    cursor: pointer;
 }
 
 #lasttwo button:nth-child(2) {
