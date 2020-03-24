@@ -1,5 +1,5 @@
 body {
-    position: absolute;
+    
     background-color: gray;
 }
 
@@ -7,45 +7,73 @@ body {
     height: 70px;
     position: relative;
     background-color: white;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 }
 
 #navigation {
-    display: block;
-    position: absolute;
+    display: flex;
+    position: ;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #menu {
-    position: relative;
+    
     height: 30px;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 5px;
+   
 }
 #youtubelogo {
-    position: absolute;
+  
     margin-left: 30px;
     height: 40px;
 }
 
 #logos {
-    margin-top: 15px;
+    align-self: flex-start;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 #searchbar {
-    position: absolute;
-    margin-left: 350px;
-    margin-top: -30px;
-    display: inline-flex;
+    align-self: center;
     height: 35px;
-
-
+    display: flex;
+    flex-grow: 0.5;
 }
- #searchinput {
-     
-    display: block;
- }
+
+#searchinput {
+    flex-grow: 1;
+}
 
 #lupa {
-    height: 50px;
+    height: 10px;
 }
+
+ #upload-sign {
+     width: 200px;
+     display: flex;
+     align-self: flex-end;
+     margin-right: 40px;
+     justify-content: space-between;
+ }
+
+#upload {
+    align-self: flex-start;
+    height: 35px;
+}
+
+#sign {
+    background-color: steelblue;
+    border: none;
+    border-radius:4px;
+    color: white;
+}
+
