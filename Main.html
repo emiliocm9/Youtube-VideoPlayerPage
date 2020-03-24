@@ -26,48 +26,64 @@
             </div>
         </nav>
     </section>
+
     <section id='language'>
             <div>
-                <div>
-                    <img src="Images/language.png" alt="">
-                    <p> Choose your language</p>
+                <div id='chooseLanguage'>
+                    <div id='supportLanguage'>
+                        <img id='languageImg' src="Images/language.png" alt="">
+                        <p> Choose your language</p>
+                    </div>
+                    <div>
+                        <a id='closeLanguage' href="#">x</a>
+                    </div>
                 </div>
-                <div>
-                    <p>You're viewing YouTube in English (US). You can change this preference below.  </p>
+                <div id='preferenceLanguage'>
+                    <p>You're viewing YouTube in <b>English (US).</b> You can <a href='#'>change this preference below.</a>  </p>
+                    <a id='learnMore' href="#">Learn more</a>
                 </div>
             </div>
     </section>
 
-    <section id='video'>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h1 id='title'>Tittle Video</h1>
-        <div>
-          <div> 
-              <img> 
-          </div>
-          <div>
-              <p>User name</p>
-              <button>
-                <img src="https://img.icons8.com/dotty/80/000000/search.png"/" alt="">
-              </button>
-          </div>
-          <div>
-              <p>100,000 Views</p>
-          </div>
-          <div>
-            <img src="Images/add-icon.png" alt="">
-            <p>Add to</p>
-            <img src="https://img.icons8.com/small/16/000000/share-3.png"/>>
-            <p>Share</p>
-            <img src="Images/dots.png" alt="">
-            <p>More</p>
-          </div>
-          <div>
-            <img src="Images/like.png" alt="">
-            <p>Like</p>
-            <img src="Images/dislike.png" alt="">
-            <p>Dislike</p>
-          </div>
+    <section id='mainPage'>
+        <section id='video'>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id='firstSection'>
+            <div>
+                <h1 id='title'>Tittle Video</h1>
+            </div>
+            <div>
+                <div id='userSection'>
+                    <div>
+                        <div> 
+                            <img> 
+                        </div>
+                        <div>
+                            <p>User name</p>
+                            <button>
+                            <img src="https://img.icons8.com/dotty/80/000000/search.png" style="width:70px;height:70px;" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <p>100,000 Views</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="Images/add-icon.png"  style="width:70px;height:70px;" alt="">
+                    <p>Add to</p>
+                    <img src="https://img.icons8.com/small/16/000000/share-3.png"  style="width:70px;height:70px;"/>
+                    <p>Share</p>
+                    <img src="Images/dots.png"  style="width:70px;height:70px;" alt="">
+                    <p>More</p>
+                </div>
+                <div>
+                    <img src="Images/like.png"  style="width:70px;height:70px;" alt="">
+                    <p>Like</p>
+                    <img src="Images/dislike.png"  style="width:70px;height:70px;" alt="">
+                    <p>Dislike</p>
+                </div>
+            </div>
         </div>
         <section>
             <h3>Published on Mar 23, 2020  </h3>
@@ -75,7 +91,7 @@
         <p>SHOW MORE</p>
         </section>
     </section>
-    <section>
+    <section id='recommendedVideos'>
         <div>
             <div>
                 <p>Up Next</p>
@@ -125,6 +141,8 @@
         </div>
         </div>
     </section>
+</section>
+
     
 </body>
 </html>

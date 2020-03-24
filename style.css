@@ -15,7 +15,6 @@ body {
 
 #navigation {
     display: flex;
-    position: ;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -77,3 +76,98 @@ body {
     color: white;
 }
 
+#language{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-color: steelblue;
+    border-style: solid;
+
+}
+
+#languageImg{
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 35px;
+}
+
+#chooseLanguage{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: steelblue;
+    height: 40px;
+    color: white;
+    justify-content: space-between;
+}
+
+#supportLanguage{
+    display: flex;
+    flex-direction: row;
+}
+
+#languageText{
+    align-self: flex-start;
+}
+
+
+#preferenceLanguage{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+#closeLanguage{
+    align-self: flex-end;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#chooseLanguage a{
+    margin-left: 10px;
+}
+
+#preferenceLanguage a{
+    text-decoration: none;
+}
+
+#learnMore{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#preferenceLanguage p{
+    margin-left: 10px;
+}
+
+#mainPage{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#video{
+    display: flex;
+    flex-direction: column;
+}
+
+#recommendedVideos{
+    display: flex;
+    flex-direction: column;    
+}
+
+#firstSection{
+    display: flex;
+    flex-direction: row;
+}
+
+#userSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
