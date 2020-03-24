@@ -1,6 +1,6 @@
 body {
     
-    background-color: gray;
+    background-color:  rgb(226, 226, 226);
 }
 
 #navbar {
@@ -168,6 +168,13 @@ body {
     flex-direction: column;
     background-color: white;
     margin-top: 10px;
+    -webkit-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+-moz-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+}
+
+#title {
+    margin-left: 15px;
 }
 
 #userSection{
@@ -175,23 +182,63 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
+    border-bottom: rgb(226, 226, 226);
+    border-style: solid;
+    border-width: 0 0 1.5px 0;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #middleuser {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
+#middleuser img {
+    margin: 7px 7px 7px 0px;
+}
 #suscribebutton {
     display: flex;
     flex-direction: column;
+    width: 200px;
+}
+
+#suscribebutton p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: rgb(51,51,51);
+}
+
+#suscribebutton img{
+    width: 77px;
+    height: 21px;
+    margin-left: 0;
+    margin-bottom: 14px;
+}
+
+#views {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 0px;
+    color: rgb(102, 102, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #sharebuttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     
+}
+
+.images {
+    width: 20px;
+    height: 20px;
+}
+.images-1 {
+    width: 15px;
+    height: 15px;
 }
 
 #firstthree {
@@ -199,14 +246,45 @@ body {
     flex-direction: row;
     align-self: flex-start;
     margin-left: 15px;
+    align-items: center;
+}
+#firstthree button {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 15px;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+#firstthree button:hover {
+    cursor: pointer;
 }
 
+#firstthree button p {
+    margin-left: 5px;
+}
 #lasttwo {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    align-items: center;
 }
 
-#title {
-    margin-left: 15px;
+#lasttwo button {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center;
+    border: none;
+    background-color: white;
 }
+
+#lasttwo button:nth-child(2) {
+    margin-right: 10px;
+  }
+
+  #lasttwo button p {
+    margin-left: 5px;
+}
+
