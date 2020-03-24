@@ -154,6 +154,8 @@ body {
 #video{
     display: flex;
     flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
 }
 
 #recommendedVideos{
@@ -163,11 +165,48 @@ body {
 
 #firstSection{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 10px;
 }
 
 #userSection{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-self: center;
+}
+#middleuser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#suscribebutton {
+    display: flex;
+    flex-direction: column;
+}
+
+#sharebuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#firstthree {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+#lasttwo {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+#title {
+    margin-left: 15px;
 }
