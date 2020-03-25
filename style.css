@@ -48,12 +48,12 @@ body {
 }
 
 nav {
-    width: 100%;  
+    width: 100%;
 }
 
 .menu {
     height: 30px;
-    margin-top: 5px;  
+    margin-top: 5px;
 }
 
 .youtubelogo {
@@ -145,7 +145,7 @@ main {
     margin-left: 15px;
 }
 
-.userSection { 
+.userSection {
     align-self: center;
     border-bottom: rgb(226, 226, 226);
     border-style: solid;
@@ -232,7 +232,7 @@ main {
 }
 
 .videoInfo {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .publishInfo {
