@@ -1,5 +1,5 @@
 body {
-    background-color:  rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
 }
 
 .flex-row {
@@ -17,7 +17,7 @@ body {
 }
 
 .spacebetween {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .flexstart {
@@ -261,7 +261,7 @@ main {
 
 .showMore a {
     font-size: 11px;
-    color: rgb(51,51,51);
+    color: rgb(51, 51, 51);
     text-decoration: none;
 }
 
