@@ -200,7 +200,7 @@ main {
 }
 
 .lasttwo button {
-    border: none;
+  border: none;
 }
 
 .firstthree button:hover {
@@ -278,7 +278,7 @@ aside {
 
 .firstVideoContainer {
   width: 400px;
-  margin: 5px 0px;
+  margin: 5px 0;
 }
 
 .secoundVideoContainer {
