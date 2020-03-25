@@ -1,19 +1,19 @@
 body {
-    background-color: rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .aligncenter {
-    align-items: center;
+  align-items: center;
 }
 
 .spacebetween {
@@ -21,290 +21,290 @@ body {
 }
 
 .flexstart {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 .height35 {
-    height: 35px;
+  height: 35px;
 }
 
 .marginl10 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .colorwhite {
-    background-color: white;
+  background-color: white;
 }
 
 .shadowbox {
-    -webkit-box-shadow: 7px 7px 7px -8px rgba(0, 0, 0, 0.52);
-    -moz-box-shadow: 7px 7px 7px -8px rgba(0, 0, 0, 0.52);
-    box-shadow: 7px 7px 7px -8px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 7px 7px 7px -8px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 7px 7px 7px -8px rgba(0, 0, 0, 0.52);
+  box-shadow: 7px 7px 7px -8px rgba(0, 0, 0, 0.52);
 }
 
 .navbar {
-    height: 70px;
+  height: 70px;
 }
 
 nav {
-    width: 100%;
+  width: 100%;
 }
 
 .menu {
-    height: 30px;
-    margin-top: 5px;
+  height: 30px;
+  margin-top: 5px;
 }
 
 .youtubelogo {
-    margin-left: 30px;
-    height: 40px;
+  margin-left: 30px;
+  height: 40px;
 }
 
 .searchbar {
-    align-self: center;
-    flex-grow: 0.5;
+  align-self: center;
+  flex-grow: 0.5;
 }
 
 .searchinput {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .lupa {
-    height: 10px;
+  height: 10px;
 }
 
  .upload-sign {
-     width: 200px;
-     align-self: flex-end;
-     margin-right: 40px;
-     justify-content: space-around;
-     flex: 0.3;
+   width: 200px;
+   align-self: flex-end;
+   margin-right: 40px;
+   justify-content: space-around;
+   flex: 0.3;
  }
 
 .sign {
-    background-color: steelblue;
-    border: none;
-    border-radius: 4px;
-    color: white;
+  background-color: steelblue;
+  border: none;
+  border-radius: 4px;
+  color: white;
 }
 
 .language {
-    margin-top: 10px;
-    border-color: steelblue;
-    border-style: solid;
+  margin-top: 10px;
+  border-color: steelblue;
+  border-style: solid;
 }
 
 .languageImg {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .chooseLanguage {
-    background-color: steelblue;
-    height: 40px;
-    color: white;
+  background-color: steelblue;
+  height: 40px;
+  color: white;
 }
 
 .preferenceLanguage {
-    text-align: center;
+  text-align: center;
 }
 
 .closeLanguage {
-    align-self: flex-end;
-    margin-right: 10px;
-    text-decoration: none;
-    color: white;
+  align-self: flex-end;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .preferenceLanguage a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .learnMore {
-    font-size: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 main {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .video {
-    margin-right: 10px;
-    min-width: 590px;
-    max-width: 1080px;
+  margin-right: 10px;
+  min-width: 590px;
+  max-width: 1080px;
 }
 
 .firstSection {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .title {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .userSection {
-    align-self: center;
-    border-bottom: rgb(226, 226, 226);
-    border-style: solid;
-    border-width: 0 0 1.5px 0;
-    margin-left: 15px;
-    margin-right: 15px;
+  align-self: center;
+  border-bottom: rgb(226, 226, 226);
+  border-style: solid;
+  border-width: 0 0 1.5px 0;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .middleuser img {
-    margin: 7px 7px 7px 0px;
+  margin: 7px 7px 7px 0px;
 }
 
 .suscribebutton {
-    width: 200px;
+  width: 200px;
 }
 
 .suscribebutton p {
-    margin-bottom: 0;
-    font-size: 14px;
-    color: rgb(51, 51, 51);
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
 }
 
 .suscribebutton img {
-    width: 77px;
-    height: 21px;
-    margin-left: 0;
-    margin-bottom: 14px;
+  width: 77px;
+  height: 21px;
+  margin-left: 0;
+  margin-bottom: 14px;
 }
 
 .views {
-    justify-content: flex-end;
-    margin-right: 0px;
-    color: rgb(102, 102, 102);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: flex-end;
+  margin-right: 0px;
+  color: rgb(102, 102, 102);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .images {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .images-1 {
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 }
 
 .firstthree {
-    margin-left: 15px;
-    margin: 10px 0;
+  margin-left: 15px;
+  margin: 10px 0;
 }
 
 .firstthree button {
-    margin-left: 15px;
-    border: none;
+  margin-left: 15px;
+  border: none;
 }
 .firstthree button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .firstthree button span {
-    margin-left: 5px;
-    display: block;
+  margin-left: 5px;
+  display: block;
 }
 
 .lasttwo {
-    align-self: flex-end;
-    margin: 10px 0;
+  align-self: flex-end;
+  margin: 10px 0;
 }
 
 .lasttwo button {
-    border: none;
+  border: none;
 }
 
 .lasttwo button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .lasttwo button:nth-child(2) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .lasttwo button span {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .videoInfo {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .publishInfo {
-    align-self: center;
-    border-bottom: rgb(226, 226, 226);
-    border-style: solid;
-    border-width: 0 0 1.5px 0;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 12px;
+  align-self: center;
+  border-bottom: rgb(226, 226, 226);
+  border-style: solid;
+  border-width: 0 0 1.5px 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 12px;
 }
 
 .publishInfo h3 {
-    color: rgb(51, 51, 51);
-    font-size: 12px;
-    margin-bottom: 2px;
+  color: rgb(51, 51, 51);
+  font-size: 12px;
+  margin-bottom: 2px;
 }
 
 .publishInfo p {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 .showMore {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .showMore a {
-    font-size: 11px;
-    color: rgb(51, 51, 51);
-    text-decoration: none;
+  font-size: 11px;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
 }
 
 aside {
-    padding: 15px;
+  padding: 15px;
 }
 
 .firstVideo {
-    border-bottom: rgb(226, 226, 226);
-    border-style: solid;
-    border-width: 0 0 1.5px 0;
-    padding-bottom: 5px;
+  border-bottom: rgb(226, 226, 226);
+  border-style: solid;
+  border-width: 0 0 1.5px 0;
+  padding-bottom: 5px;
 }
 
 .firstVideoContainer {
-    width: 400px;
-    margin: 5px 0px;
+  width: 400px;
+  margin: 5px 0px;
 }
 
 .secoundVideoContainer {
-    margin-left: 5px;
-    margin-top: 0;
+  margin-left: 5px;
+  margin-top: 0;
 }
 
 .secoundVideoContainer h3 {
-    font-size: 12px;
-    margin: 0;
+  font-size: 12px;
+  margin: 0;
 }
 
 .secoundVideoContainer p {
-    font-size: 10px;
-    margin: 1px;
+  font-size: 10px;
+  margin: 1px;
 }
 
 .videoformatdiv {
-    position: relative;
+  position: relative;
 height: 0;
 padding-bottom: 56.25%;
 overflow: hidden;
 }
 
 .videoformat {
-    width: 100%;
+  width: 100%;
 height: 100%;
 position: absolute;
 top: 0;
