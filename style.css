@@ -73,13 +73,13 @@ nav {
   height: 10px;
 }
 
- .upload-sign {
-   width: 200px;
-   align-self: flex-end;
-   margin-right: 40px;
-   justify-content: space-around;
-   flex: 0.3;
- }
+.upload-sign {
+  width: 200px;
+  align-self: flex-end;
+  margin-right: 40px;
+  justify-content: space-around;
+  flex: 0.3;
+}
 
 .sign {
   background-color: steelblue;
@@ -153,7 +153,7 @@ main {
 }
 
 .middleuser img {
-  margin: 7px 7px 7px 0px;
+  margin: 7px 7px 7px 0;
 }
 
 .suscribebutton {
@@ -175,7 +175,7 @@ main {
 
 .views {
   justify-content: flex-end;
-  margin-right: 0px;
+  margin-right: 0;
   color: rgb(102, 102, 102);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -191,14 +191,18 @@ main {
 }
 
 .firstthree {
-  margin-left: 15px;
-  margin: 10px 0;
+  margin: 10px 0 10px 15px;
 }
 
 .firstthree button {
   margin-left: 15px;
   border: none;
 }
+
+.lasttwo button {
+    border: none;
+}
+
 .firstthree button:hover {
   cursor: pointer;
 }
@@ -211,10 +215,6 @@ main {
 .lasttwo {
   align-self: flex-end;
   margin: 10px 0;
-}
-
-.lasttwo button {
-  border: none;
 }
 
 .lasttwo button:hover {
@@ -298,15 +298,15 @@ aside {
 
 .videoformatdiv {
   position: relative;
-height: 0;
-padding-bottom: 56.25%;
-overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
 }
 
 .videoformat {
   width: 100%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
