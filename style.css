@@ -3,194 +3,156 @@ body {
     background-color:  rgb(226, 226, 226);
 }
 
-#navbar {
-    height: 70px;
-    position: relative;
-    background-color: white;
+.flex-row {
     display: flex;
     flex-direction: row;
-    align-items: center;
-
 }
 
-#navigation {
+.flex-column {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.aligncenter {
     align-items: center;
 }
 
-#menu {
-    
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 5px;
-   
+.spacebetween {
+ justify-content: space-between;
 }
-#youtubelogo {
+
+.flexstart {
+ align-self: flex-start;
+}
+
+.height35 {
+    height: 35px;
+}
+
+.marginl10 {
+    margin-left: 10px;
+}
+
+.colorwhite {
+    background-color: white;
+}
+
+.shadowbox {
+    -webkit-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+    -moz-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+    box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+}
+
+.navbar {
+    height: 70px;
+ 
+}
+
+nav {
+    width: 100%;  
+}
+
+.menu {
+    height: 30px;
+    
+    margin-top: 5px;  
+}
+.youtubelogo {
   
     margin-left: 30px;
     height: 40px;
 }
-
-#logos {
-    align-self: flex-start;
-    margin-left: 10px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-#searchbar {
+.searchbar {
     align-self: center;
-    height: 35px;
-    display: flex;
+    
     flex-grow: 0.5;
 }
 
-#searchinput {
+.searchinput {
     flex-grow: 1;
 }
 
-#lupa {
+.lupa {
     height: 10px;
 }
 
- #upload-sign {
+ .upload-sign {
      width: 200px;
-     display: flex;
      align-self: flex-end;
      margin-right: 40px;
      justify-content: space-around;
      flex: 0.3;
  }
 
-#upload {
-    align-self: flex-start;
-    height: 35px;
-}
-
-#menuHeader{
-    height: 35px;
-}
-
-#notifications{
-    height: 35px;
-}
-
-#sign {
+.sign {
     background-color: steelblue;
     border: none;
     border-radius:4px;
     color: white;
 }
 
-#language{
+.language{
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
     border-color: steelblue;
     border-style: solid;
 
 }
 
-#languageImg{
+.languageImg{
     margin-top: 5px;
-    margin-left: 10px;
-    height: 35px;
 }
 
-#chooseLanguage{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+.chooseLanguage{
     background-color: steelblue;
     height: 40px;
     color: white;
-    justify-content: space-between;
-}
-
-#supportLanguage{
-    display: flex;
-    flex-direction: row;
-}
-
-#languageText{
-    align-self: flex-start;
-}
-
-
-#preferenceLanguage{
-    display: flex;
-    text-align: center;
-    background-color: white;
-    justify-content: space-between;
-    flex-direction: row;
     
 }
 
-#closeLanguage{
+.preferenceLanguage{
+    text-align: center;
+ 
+    
+    
+}
+
+.closeLanguage{
     align-self: flex-end;
     margin-right: 10px;
     text-decoration: none;
     color: white;
 }
 
-#chooseLanguage a{
-    margin-left: 10px;
-}
-
-#preferenceLanguage a{
+.preferenceLanguage a{
     text-decoration: none;
 }
 
-#learnMore{
+.learnMore{
     font-size: 10px;
     margin-top: 20px;
     margin-right: 10px;
 }
 
-#preferenceLanguage p{
-    margin-left: 10px;
-}
-
-#mainPage{
-    display: flex;
-    flex-direction: row;
+main{
     margin-top: 20px;
 }
 
-#video{
-    display: flex;
-    flex-direction: column;
+.video{
     margin-right: 10px;
     min-width: 590px;
     max-width: 1080px;
 }
 
-#recommendedVideos{
-    display: flex;
-    flex-direction: column;    
-}
-
-#firstSection{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+.firstSection{
+ 
     margin-top: 10px;
-    -webkit-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
-    -moz-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
-    box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
 }
 
-#title {
+.title {
     margin-left: 15px;
 }
 
-#userSection{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.userSection{ 
     align-self: center;
     border-bottom: rgb(226, 226, 226);
     border-style: solid;
@@ -198,48 +160,32 @@ body {
     margin-left: 15px;
     margin-right: 15px;
 }
-#middleuser {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-#middleuser img {
+
+.middleuser img {
     margin: 7px 7px 7px 0px;
 }
-#suscribebutton {
-    display: flex;
-    flex-direction: column;
+.suscribebutton {
     width: 200px;
 }
 
-#suscribebutton p {
+.suscribebutton p {
     margin-bottom: 0;
     font-size: 14px;
     color: rgb(51,51,51);
 }
 
-#suscribebutton img{
+.suscribebutton img{
     width: 77px;
     height: 21px;
     margin-left: 0;
     margin-bottom: 14px;
 }
 
-#views {
-    display: flex;
-    flex-direction: column;
+.views {
     justify-content: flex-end;
     margin-right: 0px;
     color: rgb(102, 102, 102);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#sharebuttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
 }
 
 .images {
@@ -251,69 +197,59 @@ body {
     height: 15px;
 }
 
-#firstthree {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
+.firstthree {
+   
     margin-left: 15px;
-    align-items: center;
+    margin: 10px 0;
 }
-#firstthree button {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
+.firstthree button {
+   
     margin-left: 15px;
-    align-items: center;
+    
     border: none;
-    background-color: white;
+ 
 }
-#firstthree button:hover {
+.firstthree button:hover {
     cursor: pointer;
 }
 
-#firstthree button p {
+.firstthree button span {
     margin-left: 5px;
+    display: block;
 }
-#lasttwo {
-    display: flex;
-    flex-direction: row;
+.lasttwo {
     align-self: flex-end;
-    align-items: center;
-}
-
-#lasttwo button {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-start;
-    align-items: center;
-    border: none;
-    background-color: white;
-}
-
-#lasttwo button:hover {
-    cursor: pointer;
-}
-
-#lasttwo button:nth-child(2) {
-    margin-right: 10px;
-  }
-
-#lasttwo button p {
-    margin-left: 5px;
-}
-
-#videoInfo{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    margin-top: 10px;
-    -webkit-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
-    -moz-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
-    box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
+    margin: 10px 0;
     
 }
 
-#publishInfo{
+.lasttwo button {
+   
+    
+    border: none;
+ 
+}
+
+.lasttwo button:hover {
+    cursor: pointer;
+}
+
+.lasttwo button:nth-child(2) {
+    margin-right: 10px;
+  }
+
+.lasttwo button span {
+    margin-left: 5px;
+}
+
+.videoInfo{
+ 
+    margin-top: 10px;
+    
+    
+}
+
+.publishInfo{
     align-self: center;
     border-bottom: rgb(226, 226, 226);
     border-style: solid;
@@ -323,45 +259,33 @@ body {
     font-size: 12px;
 }
 
-#publishInfo h3{
+.publishInfo h3{
     color: rgb(51,51,51);
     font-size: 12px;
     margin-bottom: 2px;
 }
 
-#publishInfo p{
+.publishInfo p{
     margin-top: 2px;
 }
 
-#showMore{
+.showMore{
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
 }
 
-#showMore a{
+.showMore a{
     font-size: 11px;
     color:  rgb(51,51,51);
     text-decoration: none;
 }
 
-#recommendedVideos{
-    display: flex;
-    flex-direction: column;
+aside{
     padding: 15px;
-    background-color: white;
-    -webkit-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
-    -moz-box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
-    box-shadow: 7px 7px 7px -8px rgba(0,0,0,0.52);
 }
 
-#autoplay{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#firstVideo{
+.firstVideo{
     border-bottom: rgb(226, 226, 226);
     border-style: solid;
     border-width: 0 0 1.5px 0;
@@ -369,16 +293,11 @@ body {
 }
 
 .firstVideoContainer{
-    display: flex;
-    flex-direction: row;
-   /* align-items: center; */
     width: 400px;
     margin: 5px 0px;
 }
 
 .secoundVideoContainer{
-    display: flex;
-    flex-direction: column;
     margin-left: 5px;
     margin-top: 0;
 }
@@ -391,4 +310,19 @@ body {
 .secoundVideoContainer p{
     font-size: 10px;
     margin: 1px;
+}
+
+.videoformatdiv {
+    position: relative;
+height: 0;
+padding-bottom: 56.25%;
+overflow: hidden;
+}
+
+.videoformat {
+    width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
 }
